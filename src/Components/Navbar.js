@@ -11,6 +11,7 @@ function Navbar() {
           onClick={() => setIsMobile(false)}>
         <li><a href="#home" className="nav-link">Home</a></li>
         <li><a href="#about" className="nav-link">About</a></li>
+        <li><a href="https://gmail.com/" className="nav-link">Contact</a></li>
        
       </ul>
       <button className="mobile-menu-icon"
