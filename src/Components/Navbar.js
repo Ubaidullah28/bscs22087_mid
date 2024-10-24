@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 
+
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -12,8 +13,10 @@ function Navbar() {
         <li><a href="#about" className="nav-link">About</a></li>
         <li><a href="#movies" className="nav-link">Movies</a></li>
         <li><a href="https://gmail.com/" className="nav-link">Contact</a></li>
-       
       </ul>
+
+      
+
       <button className="mobile-menu-icon"
               onClick={() => setIsMobile(!isMobile)}>
         {isMobile ? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>}

@@ -2,13 +2,14 @@ import {React, useState} from 'react';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import ListingsGrid from './Components/ListingGrid';
-import Search from './Components/SearchBar';
+import SearchBar from './Components/SearchBar';
 
 function App() {
   return (
     <div>
       <Navbar />
       <SearchBar/>
+      
       
       
       <section id="about" style={{ height: '30vh', backgroundColor: '#e2e2e2' }}>
